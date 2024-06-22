@@ -32,4 +32,4 @@ model_config.py: Defines the autoencoder model.
 DynaCluster.py: Contains functions for calculating similarity, decision probability, and reward.
 PrintingFile.py: Contains the function to print training status.
 dataset_loader.py: Contains functions for loading various datasets (STL-10, ImageNet-Tiny, MNIST, USPS, F-MNIST, CIFAR-10).
-![image](https://github.com/raja21068/DynaCluster/assets/10251446/58b84f06-9bae-41ad-a4ee-b13cced667e8)
+

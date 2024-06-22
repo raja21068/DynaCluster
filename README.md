@@ -19,6 +19,14 @@ This repository contains an implementation of a Deep Reinforcement Clustering (D
 - psutil
 - pandas
 
+# Files
+deep_reinforcement_clustering_test-v1.py: Main script to run the DRC algorithm with a mock dataset.
+model_config.py: Defines the autoencoder model.
+DynaCluster.py: Contains functions for calculating similarity, decision probability, and reward.
+PrintingFile.py: Contains the function to print training status.
+dataset_loader.py: Contains functions for loading various datasets (STL-10, ImageNet-Tiny, MNIST, USPS, F-MNIST, CIFAR-10).
+
+
 ## Installation
 
 Install the required libraries using pip:
@@ -28,10 +36,5 @@ pip install torch numpy scikit-learn psutil pandas
 
 
 
-## Files
-deep_reinforcement_clustering_test-v1.py: Main script to run the DRC algorithm with a mock dataset.
-model_config.py: Defines the autoencoder model.
-DynaCluster.py: Contains functions for calculating similarity, decision probability, and reward.
-PrintingFile.py: Contains the function to print training status.
-dataset_loader.py: Contains functions for loading various datasets (STL-10, ImageNet-Tiny, MNIST, USPS, F-MNIST, CIFAR-10).
+
 

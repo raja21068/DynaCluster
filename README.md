@@ -20,11 +20,11 @@ This repository contains an implementation of a Deep Reinforcement Clustering (D
 - pandas
 
 # Files
-deep_reinforcement_clustering_test-v1.py: Main script to run the DRC algorithm with a mock dataset.
-model_config.py: Defines the autoencoder model.
-DynaCluster.py: Contains functions for calculating similarity, decision probability, and reward.
-PrintingFile.py: Contains the function to print training status.
-dataset_loader.py: Contains functions for loading various datasets (STL-10, ImageNet-Tiny, MNIST, USPS, F-MNIST, CIFAR-10).
+-  deep_reinforcement_clustering_test-v1.py: Main script to run the DRC algorithm with a mock dataset.
+-  model_config.py: Defines the autoencoder model.
+-  DynaCluster.py: Contains functions for calculating similarity, decision probability, and reward.
+-  PrintingFile.py: Contains the function to print training status.
+-  dataset_loader.py: Contains functions for loading various datasets (STL-10, ImageNet-Tiny, MNIST, USPS, F-MNIST, CIFAR-10).
 
 
 ## Installation
